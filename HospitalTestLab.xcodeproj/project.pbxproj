@@ -16,6 +16,8 @@
 		C25362FA2B0F4CCE00652204 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25362F92B0F4CCE00652204 /* TestModel.swift */; };
 		C25362FC2B0F4D0E00652204 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25362FB2B0F4D0E00652204 /* TestViewModel.swift */; };
 		C25363002B0F4F2500652204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25362FF2B0F4F2500652204 /* ContentView.swift */; };
+		C25363022B0FB1A400652204 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25363012B0FB1A400652204 /* UserInfo.swift */; };
+		C25363042B0FC2E200652204 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25363032B0FC2E200652204 /* AdminView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C25362F92B0F4CCE00652204 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		C25362FB2B0F4D0E00652204 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		C25362FF2B0F4F2500652204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C25363012B0FB1A400652204 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		C25363032B0FC2E200652204 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				C25362FF2B0F4F2500652204 /* ContentView.swift */,
+				C25363012B0FB1A400652204 /* UserInfo.swift */,
+				C25363032B0FC2E200652204 /* AdminView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 			files = (
 				C25362CB2B0CA8B700652204 /* HospitalTestLabApp.swift in Sources */,
 				C25362FC2B0F4D0E00652204 /* TestViewModel.swift in Sources */,
+				C25363042B0FC2E200652204 /* AdminView.swift in Sources */,
 				C25363002B0F4F2500652204 /* ContentView.swift in Sources */,
+				C25363022B0FB1A400652204 /* UserInfo.swift in Sources */,
 				C25362FA2B0F4CCE00652204 /* TestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
